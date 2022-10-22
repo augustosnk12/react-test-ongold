@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+## running
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First clone `git clone` this repo, run `yarn` to get all dependencies and then `yarn start` to run the project.
 
-## Available Scripts
+## Objetivo Geral
 
-In the project directory, you can run:
+- Exibir a lista de usuários no formato de `cards` (há na raiz um arquivo chamado `users.js`
+- A lista deve ser exibida em **ordem alfabética**
+- Só devem ser exibidos os usuários que estiverem **ativos**
+- Ser possível **remover** um usuário da lista
+- Exibir a **média** das idades
+- Enviar as alterações para uma nova `branch` no Github
 
-### `npm start`
+## Objetivos específicos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Criar um componente `Card.jsx` passando por `props` os usuários
+- A data de nascimento deve ser exibida no formato `dd/MM/yyyy`. Exemplo: 12/12/1999
+- Só serão exibidos na lista se a flag `active` estiver marcada com `true`
+- Se `age` for maior do que `20`, a cor do card deve ser **azul**. Se for menor, **cinza**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Essa viagem é realmente necessária?
 
-### `npm test`
+Nesse teste você demonstrará que sabe: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Usar **estados**, **componentes** e **propriedades**
+- Manipular Arrays
+- Manipular Datas
+- Usar o Git
+- HTML + CSS
 
-### `npm run build`
+## Quer ganhar mais pontos?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Não é obrigatório, mas usar uma `lib` para os `cards`, ao invés de criar do "zero", seria massa... Tipo [essa daqui](https://ant.design).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

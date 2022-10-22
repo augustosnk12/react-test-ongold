@@ -16,7 +16,7 @@ export const users = [
 	{
 		name: 'Rodrigo KissHimself',
 		skill: 'Find bugs',
-		birthdate: new Date('1990-01-30 03:00:00'),
+		birthdate: null,
 		age: 15,
 		active: true,
 	},
@@ -29,7 +29,7 @@ export const users = [
 	},
 	{
 		name: 'Paiva no lastname',
-		skill: 'Not finishing novels',
+		skill: undefined,
 		birthdate: new Date('2000-05-10 03:00:00'),
 		age: 25,
 		active: false,

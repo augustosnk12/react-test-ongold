@@ -1,4 +1,4 @@
-## running
+## Running
 
 First clone `git clone` this repo, run `yarn` to get all dependencies and then `yarn start` to run the project.
 

@@ -3,7 +3,7 @@ export const users = [
 		name: 'Pedro Lucas',
 		skill: 'Kissing pigs',
 		birthdate: new Date('1999-12-24 03:00:00'),
-		age: 20,
+		age: 21,
 		active: true,
 	},
 	{
@@ -11,7 +11,7 @@ export const users = [
 		skill: 'Plant Cactus',
 		birthdate: new Date('1970-10-01 03:00:00'),
 		age: 30,
-		active: true,
+		active: false,
 	},
 	{
 		name: 'Rodrigo KissHimself',
